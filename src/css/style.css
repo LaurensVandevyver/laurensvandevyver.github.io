@@ -6,15 +6,156 @@ html {
 }
 
 body {
-  font-family: Roboto;
+  font-family: Helvetica;
   font-size: 1.6rem;
-  margin: 2rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
-  margin: 2rem 0;
+  width: 100vw;
+  height: 10rem;
+  color: #333;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
+  font-weight: lighter;
+  letter-spacing: .5rem;
   font-size: 3rem;
+  margin-left: 10rem;
+  margin-top: 3.5rem;
+  z-index: 9;
+
+  &::after {
+    z-index: -9;
+    content: '';
+    width: 45rem;
+    position: absolute;
+    top: 5.7rem;
+    left: 10rem;
+    height: .5rem;
+    background-color: var(--red);
+  }
+}
+
+.nav {
+  margin-left: 10rem;
+  margin-top: 2rem;
+  display: flex;
+  width: 25rem;
+  justify-content: space-between;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+
+  &::before {
+    display: flex;
+    position: absolute;
+    z-index: -9;
+    content: '';
+    width: 0;
+    height: .5rem;
+    background-color: var(--green);
+    margin-left: 0;
+    margin-top: 1rem;
+    transition: .5s;
+  }
+
+  &:hover::before {
+    content: '';
+    width: 6rem;
+  }
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  margin: 10rem 0;
+}
+
+section {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+article {
+  width: 40vw;
+  perspective: 1200px;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 2rem;
+  letter-spacing: .2rem;
+}
+
+.foto {
+  transition: transform .2s ease-out;
+  transform-style: preserve-3d;
+}
+
+.self {
+  background-image: url(../assets/img/self.jpg);
+  width: 40rem;
+  height: 60.2rem;
+}
+
+p {
+  margin-top: 5rem;
+  width: 30vw;
+  line-height: 150%;
+}
+
+.intro {
+  margin-top: 2rem;
+}
+
+.st0 {
+  fill: none;
+  stroke: #2bb6a6;
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.st1 {
+  fill: #f0373d;
+}
+
+.lines {
+  margin-left: -5rem;
+  margin-top: 1rem;
+}
+
+.dots {
+  margin-top: 48.2rem;
+  margin-left: 38rem;
+}
+
+.social {
+  width: 30rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sociallink {
+  color: white;
+}
+
+footer {
+  width: 100vw;
+  height: 5rem;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

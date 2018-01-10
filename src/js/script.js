@@ -2,7 +2,7 @@
 
 const init = () => {
 
-  console.log(`Hello, laurensvandevyver-github-io`)
+  console.log(`Hello, laurensvandevyver-github-io`);
 
 };
 
