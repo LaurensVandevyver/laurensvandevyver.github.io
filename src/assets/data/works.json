@@ -1,0 +1,40 @@
+{
+  "works": [
+    {
+      "title": "Geen eitje",
+      "image": "bachelor",
+      "desc": "something about bachelor",
+      "color": "pink"
+    },
+    {
+      "title": "Daikin",
+      "image": "daikin",
+      "desc": "something about daikin",
+      "color": "red"
+    },
+    {
+      "title": "MSK",
+      "image": "msk",
+      "desc": "something about msk",
+      "color": "red"
+    },
+    {
+      "title": "Google doodle",
+      "image": "doodle",
+      "desc": "something about google doodle",
+      "color": "blue"
+    },
+    {
+      "title": "Tribute",
+      "image": "nico",
+      "desc": "something about tribute",
+      "color": "green"
+    },
+    {
+      "title": "Appnormal",
+      "image": "normal",
+      "desc": "something about appnormal",
+      "color": "green"
+    }
+  ]
+}
