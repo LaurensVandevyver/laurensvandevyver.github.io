@@ -1,0 +1,90 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "chopstick-sass@^1.0.1",
+        "scope": null,
+        "escapedName": "chopstick-sass",
+        "name": "chopstick-sass",
+        "rawSpec": "^1.0.1",
+        "spec": ">=1.0.1 <2.0.0",
+        "type": "range"
+      },
+      "/Users/laurensvandevyver/Google Drive/portfolio/chopstick-boilerplate"
+    ]
+  ],
+  "_from": "chopstick-sass@>=1.0.1 <2.0.0",
+  "_id": "chopstick-sass@1.0.1",
+  "_inCache": true,
+  "_location": "/chopstick-sass",
+  "_nodeVersion": "6.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/chopstick-sass-1.0.1.tgz_1476871968009_0.39068390103057027"
+  },
+  "_npmUser": {
+    "name": "chopstick",
+    "email": "dieter.peirs@wijs.be"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "chopstick-sass@^1.0.1",
+    "scope": null,
+    "escapedName": "chopstick-sass",
+    "name": "chopstick-sass",
+    "rawSpec": "^1.0.1",
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/chopstick-sass/-/chopstick-sass-1.0.1.tgz",
+  "_shasum": "710399ae6ed5598d152a94a028e8f19c5996deed",
+  "_shrinkwrap": null,
+  "_spec": "chopstick-sass@^1.0.1",
+  "_where": "/Users/laurensvandevyver/Google Drive/portfolio/chopstick-boilerplate",
+  "author": {
+    "name": "Chopstick",
+    "url": "https://github.com/orgs/getchopstick/people"
+  },
+  "bugs": {
+    "url": "https://github.com/getchopstick/chopstick-sass/issues"
+  },
+  "dependencies": {},
+  "description": "The Chopstick Sass framework",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "710399ae6ed5598d152a94a028e8f19c5996deed",
+    "tarball": "https://registry.npmjs.org/chopstick-sass/-/chopstick-sass-1.0.1.tgz"
+  },
+  "gitHead": "70394c7e3caaf9778d0a5df2abf4fdb40c3760a8",
+  "homepage": "http://getchopstick.com/",
+  "keywords": [
+    "front-end",
+    "utilities",
+    "css",
+    "scss",
+    "sass",
+    "framework",
+    "ITCSS"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "chopstick",
+      "email": "dieter.peirs@wijs.be"
+    }
+  ],
+  "name": "chopstick-sass",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/getchopstick/chopstick-sass.git"
+  },
+  "scripts": {},
+  "version": "1.0.1"
+}

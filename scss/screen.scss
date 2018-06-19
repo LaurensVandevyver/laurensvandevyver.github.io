@@ -1,0 +1,33 @@
+/*
+ *  Chopstick index
+ *  ---
+ *  Chopstick is a framework based on the [ITCSS](http://itcss.io/)
+ *  architecture and a series of principles. It creates a structure
+ *  to easily set-up and build bespoke web projects.
+ *  ---
+ *
+ *  Settings: contains global variables and config switches
+ *  Tools: contains default mixins and functions
+ *  Generic: contains ground-zero styles (Normalize.css, resets, box-sizing)
+ *  Elements: contains unclassed HTML elements (type selectors)
+ *  Objects: contains cosmetic-free design patterns
+ *  Components: contains designed components, chunks of UI
+ *  Plugins: contains third-party plugin styles
+ *  Utilities: contains helpers and overrides
+ *  Shame: nasty, hacky, quick-fix CSS
+ */
+
+// scss-lint:disable StringQuotes
+@charset "utf-8";
+// scss-lint:enable StringQuotes
+
+// Settings
+@import 'settings.reset';
+
+@import 'components.animations';
+@import 'components.overlay';
+
+
+/* Nasty, hacky, quick-fix CSS: http://csswizardry.com/2013/04/shame-css/ */
+@import 'shame';
+@import 'components.breakpoints';

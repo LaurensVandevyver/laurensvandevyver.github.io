@@ -1,0 +1,285 @@
+/*
+    Shame
+    ---
+    Hacks and quick fixes
+*/
+
+html {
+  background-color: var(--bg-color);
+}
+
+body {
+  font-family: muli;
+  font-size: 1.6rem;
+  line-height: 150%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  background-color: #fdfdfd;
+  overflow-x: hidden;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-bottom: 2rem;
+  width: 100vw;
+  z-index: 9999;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: .4rem;
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    animation-name: topbar;
+    animation-duration: 1s;
+  }
+
+  & .main-title {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+    letter-spacing: .1rem;
+    z-index: 9999999999999;
+    transition: .5s;
+    animation-name: title;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    margin-top: 8rem;
+    opacity: 1;
+
+    & a {
+        color: #333;
+        text-decoration: none;
+    }
+  }
+}
+
+.push {
+  opacity: 0;
+  margin-top: 30rem;
+  animation-name: push;
+  animation-duration: 1s;
+  animation-delay: .75s;
+  animation-fill-mode: forwards;
+}
+
+.page-block {
+  position: relative;
+  width: 100vw;
+  padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+  overflow-x: hidden;
+
+  & .page-wrapper {
+    max-width: 144rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+
+    & .intro {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.column {
+  flex-direction: column;
+}
+
+.secondary-title {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin: 1rem 0 3rem;
+}
+
+.self {
+  width: 35rem;
+  max-width: 35rem;
+  height: auto;
+  background-size: contain;
+}
+
+.gradient-line--photo {
+    width: 35rem;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    max-width: 35rem;
+    height: .4rem;
+    z-index: -1;
+    margin-top: -.6rem;
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+  }
+}
+
+.work-wrapper2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6rem;
+  justify-content: center;
+}
+
+.work {
+  width: 42%;
+  margin: 1% 2%;
+
+  & .work-hero--img {
+    width: 100%;
+    transition: .5s;
+
+    &:hover {
+      transform: rotate(1deg);
+    }
+  }
+
+  & a {
+      text-decoration: none;
+      color: #333;
+  }
+}
+
+.hamburger {
+  position: absolute;
+  align-self: flex-end;
+  right: 10rem;
+  background-image: url(../assets/svg/hamburger.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 3.5rem;
+  height: 2.3rem;
+  cursor: pointer;
+  margin-top: -2.5rem;
+  z-index: 99;
+}
+
+.main-nav {
+  position: fixed;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  justify-content: center;
+  align-items: center;
+  z-index: 8;
+
+  & ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & li {
+      margin: 3rem 0;
+
+      & a {
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 3rem;
+        margin: 2rem;
+        text-align: center;
+        transition: .5s;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.line-p {
+  width: 96rem;
+}
+
+.flex-start {
+    align-self: flex-start;
+}
+
+.extra-large {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.daikin-line {
+
+    &::before {
+        content: '';
+        position: absolute;
+        height: 4rem;
+        width: .4rem;
+        background-color: #8693f3;
+        margin-left: -1rem;
+    }
+}
+
+.bachelor-line {
+
+    &::before {
+        content: '';
+        position: absolute;
+        height: 4rem;
+        width: .4rem;
+        background-color: #ffc5e3;
+        margin-left: -1rem;
+    }
+}
+
+.msk-line {
+
+    &::before {
+        content: '';
+        position: absolute;
+        height: 4rem;
+        width: .4rem;
+        background-color: #e83739;
+        margin-left: -1rem;
+    }
+}
+
+.nico-line {
+
+    &::before {
+        content: '';
+        position: absolute;
+        height: 4rem;
+        width: .4rem;
+        background-color: #ffa624;
+        margin-left: -1rem;
+    }
+}
+
+.video {
+    margin-top: 10rem;
+}
+
+iframe {
+    width: 96rem;
+    height: 72rem;
+}
+
+.push2 {
+    margin-top: 10rem;
+}
