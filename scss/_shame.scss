@@ -22,6 +22,13 @@ body {
   overflow-x: hidden;
 }
 
+main {
+    margin-top: 15rem;
+    background-color: #fdfdfd;
+    margin-bottom: 15rem;
+    z-index: 1;
+}
+
 header {
   position: fixed;
   left: 0;
@@ -76,13 +83,17 @@ header {
 .page-block {
   position: relative;
   width: 100vw;
-  padding-top: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   z-index: 1;
   overflow-x: hidden;
+  margin-top: 10rem;
+
+  &:nth-child(3) {
+      padding: 15rem 0 5rem;
+  }
 
   & .page-wrapper {
     max-width: 144rem;
@@ -102,6 +113,10 @@ header {
   flex-direction: column;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .secondary-title {
   font-size: 2.4rem;
   font-weight: 600;
@@ -113,10 +128,6 @@ header {
   max-width: 35rem;
   height: auto;
   background-size: contain;
-}
-
-.gradient-line--photo {
-    width: 35rem;
 
   &::after {
     content: '';
@@ -128,6 +139,17 @@ header {
     margin-top: -.6rem;
     background: linear-gradient(to right, #ee0979, #ff6a00);
   }
+}
+
+.gradient-line--photo {
+    width: 35rem;
+
+    & .gradient-line {
+        width: 100%;
+        height: .4rem;
+        background: linear-gradient(to right, #ee0979, #ff6a00);
+        margin-top: -.6rem;
+    }
 }
 
 .work-wrapper2 {
@@ -212,6 +234,16 @@ header {
 
 .line-p {
   width: 96rem;
+
+  & a {
+      color: #ff6a00;
+      text-decoration: none;
+      transition: .3s;
+
+      &:hover {
+          color: #ee0979;
+      }
+  }
 }
 
 .flex-start {
@@ -282,4 +314,9 @@ iframe {
 
 .push2 {
     margin-top: 10rem;
+}
+
+.contact {
+    width: 70rem;
+    padding-bottom: 10rem;
 }

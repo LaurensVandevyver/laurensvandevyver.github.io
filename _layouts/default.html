@@ -3,8 +3,6 @@
 
 {% include generic.head.html %}
 
-<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
 <body{% if page.section %} class="c-{{ page.section }}"{% endif%}>
 
     <!-- Deprecated browser alert -->
@@ -18,7 +16,7 @@
     {{ content }}
 
     <!-- Page footer -->
-    <!-- {% include components.footer.html %} -->
+    {% include components.footer.html %}
     <!-- End page footer -->
 
     <!-- Footer javascript -->

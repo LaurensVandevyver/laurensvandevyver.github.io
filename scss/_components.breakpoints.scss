@@ -61,7 +61,7 @@
 
   .page-block {
     min-height: 50vh;
-    margin-bottom: 10rem;
+    // margin-bottom: 10rem;
   }
 
   .spec-wrap {
@@ -94,8 +94,25 @@
 
 @media (max-width: 750px) {
 
+    .contact {
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    .page-block {
+        margin-top: 0;
+    }
+
+    main {
+        margin-top: 15%;
+    }
+
+    .work-wrapper2 {
+        margin-top: 1rem;
+    }
+
     .secondary-title {
-        margin: 1rem 0;
+        margin: 5rem 0 1rem;
     }
 
     .overlay-main--title {
