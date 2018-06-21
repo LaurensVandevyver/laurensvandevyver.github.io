@@ -200,7 +200,7 @@ const init = () => {
   $menu.addEventListener(`click`, onMenuClick);
   document.addEventListener(`scroll`, onScroll);
   checkPage();
-  // pageTransition();
+  pageTransition();
 };
 
 init();
