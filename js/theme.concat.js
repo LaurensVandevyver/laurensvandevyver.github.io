@@ -174,10 +174,33 @@ const checkPage = () => {
     }
 }
 
+const pageTransition = () => {
+    $(".work-wrapper2 a").on("click", function(event) {
+        event.preventDefault()
+
+        const href = $(this).attr("href")
+
+        window.history.pushState(null, null, href)
+
+        $.ajax({
+            url: href,
+            success: function (data) {
+                $("main").fadeOut(500, function() {
+                    const newPage = $(data).filter("main").html()
+                    $("main").html(newPage)
+                    window.scrollTo(0,0)
+                    $("main").fadeIn(5)
+                })
+            }
+        })
+    })
+}
+
 const init = () => {
   $menu.addEventListener(`click`, onMenuClick);
   document.addEventListener(`scroll`, onScroll);
   checkPage();
+  pageTransition();
 };
 
 init();
