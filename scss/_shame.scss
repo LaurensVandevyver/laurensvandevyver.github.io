@@ -36,45 +36,45 @@ main {
 
 
 header {
-  position: fixed;
   left: 0;
   top: 0;
-  padding-bottom: 2rem;
   width: 100vw;
   z-index: 9999;
+  display: flex;
+  justify-content: flex-end;
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: .4rem;
-    background: linear-gradient(to right, #ee0979, #ff6a00);
-    animation-name: topbar;
-    animation-duration: 1s;
-  }
+  // &::before {
+  //   content: '';
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100vw;
+  //   height: .4rem;
+  //   background: linear-gradient(to right, #ee0979, #ff6a00);
+  //   animation-name: topbar;
+  //   animation-duration: 1s;
+  // }
+}
 
-  & .main-title {
-    font-size: 5rem;
-    text-align: center;
-    font-weight: 700;
-    width: 100%;
-    letter-spacing: .1rem;
-    z-index: 9999999999999;
-    transition: .5s;
-    animation-name: title;
-    animation-duration: 1s;
-    animation-delay: .5s;
-    animation-fill-mode: forwards;
-    margin-top: 8rem;
-    opacity: 1;
+.main-title {
+  color: #333;
+  font-size: 2.7rem;
+  font-weight: 600;
+  max-width: 70rem;
+  letter-spacing: .1rem;
+  z-index: 9999999999999;
+  transition: .5s;
+  line-height: 150%;
+  align-self: flex-start;
+  margin-left: 10%;
+  padding: 8rem 0;
 
-    & a {
-        color: #333;
-        text-decoration: none;
-    }
-  }
+  animation-name: title;
+  animation-duration: 1s;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
+  margin-top: 0;
+  opacity: 1;
 }
 
 .push {
@@ -180,7 +180,6 @@ header {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 6rem;
   justify-content: center;
 }
 
@@ -344,3 +343,34 @@ iframe {
     width: 70rem;
     padding-bottom: 10rem;
 }
+
+.intro-title {
+    font-weight: 700;
+}
+
+.navigation {
+    align-self: flex-end;
+
+    & ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & li {
+        margin: 3rem 0;
+
+        & a {
+          color: gray;
+          text-decoration: none;
+          font-size: 1.6rem;
+          margin: 2rem;
+          text-align: center;
+          transition: .5s;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
