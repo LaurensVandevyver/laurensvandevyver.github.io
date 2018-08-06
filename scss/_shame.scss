@@ -144,6 +144,10 @@ header {
         & a {
             color: #6e23ef;
             text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
