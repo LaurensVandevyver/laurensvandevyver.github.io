@@ -166,21 +166,17 @@
     width: 96%;
   }
 
-  header {
+  .split {
+      flex-direction: column;
+  }
 
-      background-color: #fdfdfd;
-      box-shadow: .1rem .1rem 2rem #d4d4d4;
-
-    & .main-title {
-      font-size: 3rem;
-      text-align: left;
-      margin-left: 1rem;
-      margin-top: 3rem;
-    }
+  .self-split {
+      width: 90vw;
+      margin-left: 2vw;
   }
 
   .intro {
-    width: 96vw;
+    width: 90vw;
     padding-right: 0;
   }
 
