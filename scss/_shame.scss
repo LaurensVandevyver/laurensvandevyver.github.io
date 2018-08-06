@@ -26,12 +26,8 @@ body {
 main {
     background-color: #fdfdfd;
     margin-bottom: 15rem;
-    z-index: 1;
     min-height: 100vh;
-}
-
-.extra-push {
-    margin-top: 7rem;
+    z-index: 1;
 }
 
 
@@ -42,18 +38,24 @@ header {
   z-index: 9999;
   display: flex;
   justify-content: flex-end;
+}
 
-  // &::before {
-  //   content: '';
-  //   position: absolute;
-  //   top: 0;
-  //   left: 0;
-  //   width: 100vw;
-  //   height: .4rem;
-  //   background: linear-gradient(to right, #ee0979, #ff6a00);
-  //   animation-name: topbar;
-  //   animation-duration: 1s;
-  // }
+.intro-p {
+    a {
+        color: #6e23ef;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.center-center {
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-title {
@@ -88,7 +90,6 @@ header {
 
 .fade-in {
   opacity: 0;
-  margin-top: 20rem;
   animation-name: fadein;
   animation-duration: 1s;
   animation-delay: .75s;
@@ -113,7 +114,7 @@ header {
   flex-direction: column;
   z-index: 1;
   overflow-x: hidden;
-  margin-top: 10rem;
+  padding-bottom: 8rem;
 
   &:nth-child(3) {
       padding: 15rem 0 5rem;
@@ -125,12 +126,61 @@ header {
     justify-content: space-around;
     align-items: center;
     overflow: hidden;
+    margin-top: 8rem;
 
     & .intro {
       display: flex;
       flex-direction: column;
     }
   }
+}
+
+.work-overview--item {
+    margin-bottom: 1.5rem;
+
+    > p {
+        font-style: italic;
+
+        & a {
+            color: #6e23ef;
+            text-decoration: none;
+        }
+    }
+}
+
+.work-overview--title {
+    font-weight: bold;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: .8rem;
+        height: .8rem;
+        border-radius: 1rem;
+        margin-top: .8rem;
+        margin-left: -2rem;
+        background-color: #8cf6ed;
+    }
+}
+
+.self-split {
+    width: 50%;
+    padding: 0 2rem;
+    align-self: flex-start;
+    padding-bottom: 4rem;
+}
+
+.skill-set {
+    display: flex;
+    flex-wrap: wrap;
+
+    & li {
+        border: .2rem solid #8cf6ed;
+        padding: .5rem 1rem;
+        border-radius: .5rem;
+        margin: .5rem;
+
+    }
 }
 
 .column {
@@ -350,6 +400,7 @@ iframe {
 
 .navigation {
     align-self: flex-end;
+    margin-right: 1rem;
 
     & ul {
       display: flex;

@@ -166,13 +166,17 @@
     width: 96%;
   }
 
-  header {
-      background-color: #fdfdfd;
-      box-shadow: .1rem .1rem 2rem #d4d4d4;
+  .split {
+      flex-direction: column;
+  }
+
+  .self-split {
+      width: 90vw;
+      margin-left: 2vw;
   }
 
   .intro {
-    width: 96vw;
+    width: 90vw;
     padding-right: 0;
   }
 
