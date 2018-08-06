@@ -10,7 +10,7 @@
         "spec": ">=1.0.1 <2.0.0",
         "type": "range"
       },
-      "/Users/laurensvandevyver/Google Drive/portfolio/chopstick-boilerplate"
+      "/Volumes/LaCie/Website/laurensvandevyver.github.io"
     ]
   ],
   "_from": "chopstick-sass@>=1.0.1 <2.0.0",
@@ -44,7 +44,7 @@
   "_shasum": "710399ae6ed5598d152a94a028e8f19c5996deed",
   "_shrinkwrap": null,
   "_spec": "chopstick-sass@^1.0.1",
-  "_where": "/Users/laurensvandevyver/Google Drive/portfolio/chopstick-boilerplate",
+  "_where": "/Volumes/LaCie/Website/laurensvandevyver.github.io",
   "author": {
     "name": "Chopstick",
     "url": "https://github.com/orgs/getchopstick/people"
