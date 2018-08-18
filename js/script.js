@@ -69,4 +69,4 @@ const init = () => {
   // pageTransition();
 };
 
-init();
+// init();
