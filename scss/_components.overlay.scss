@@ -23,12 +23,12 @@
   justify-content: space-around;
 
   & a {
-      color: #ff6a00;
+      color: #6e23ef;
       text-decoration: none;
       transition: .3s;
 
       &:hover {
-          color: #ee0979;
+          text-decoration: underline;
       }
   }
 }
@@ -86,12 +86,12 @@
   & .overlay-p {
 
     & a {
-      color: #ff6a00;
+      color: #6e23ef;
       text-decoration: none;
       transition: .5s;
 
       &:hover {
-        color: #ee0979;
+        text-decoration: underline;
       }
     }
   }
@@ -116,6 +116,10 @@
 
 .bachelor-color {
   background: rgba(255, 197, 227, .5);
+}
+
+.summer-color {
+  background: rgba(77, 235, 216, .5);
 }
 
 .daikin-color-bg {
@@ -199,6 +203,18 @@
       background-color: #fa2d51;
     }
 
+    & .colour-swatch--12 {
+      background-color: #4debd8;
+    }
+
+    & .colour-swatch--13 {
+      background-color: #35313a;
+    }
+
+    & .colour-swatch--14 {
+      background-color: #fafafa;
+    }
+
     & .colour-swatch--size {
         width: 10rem;
         height: 10rem;
@@ -218,6 +234,12 @@
 
     & .bachelor-wireframes {
       background-image: url(../assets/img/bachelor/wireframes.png);
+      background-size: cover;
+      background-position: center;
+    }
+
+    & .summer-wireframes {
+      background-image: url(../assets/img/summer/wireframes.png);
       background-size: cover;
       background-position: center;
     }
@@ -295,6 +317,11 @@
   background-image: url(../assets/svg/tribute/times.svg);
 }
 
+.circular {
+  background-image: url(../assets/svg/summer/circular.svg);
+  margin-top: 5rem;
+}
+
 .helvetica {
   background-image: url(../assets/svg/tribute/helvetica.svg);
   margin-top: 5rem;
@@ -367,12 +394,12 @@
     max-width: 50rem;
 
     & a {
-        color: #ff6a00;
+        color: #6e23ef;
         text-decoration: none;
         transition: .3s;
 
         &:hover {
-            color: #ee0979;
+            text-decoration: underline;
         }
     }
 }
@@ -410,6 +437,15 @@
                 color: white;
             }
         }
+    }
+}
+
+.summer-color {
+    background-color: transparent;
+    transition: .5s;
+
+    &:hover {
+        background-color: rgb(67, 235, 214);
     }
 }
 

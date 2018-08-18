@@ -28,7 +28,7 @@
         margin-left: 1rem;
     }
 
-    iframe {
+    .video > iframe {
         width: 64rem;
         height: 48rem;
     }
@@ -89,6 +89,12 @@
       overflow: hidden;
   }
 
+  .main-title {
+    width: 90%;
+    margin-left: 5%;
+    padding: 2rem 0;
+  }
+
 
 }
 
@@ -119,7 +125,7 @@
         margin-top: 5rem;
     }
 
-    iframe {
+    .video > iframe {
         width: 48rem;
         height: 36rem;
     }
@@ -231,9 +237,13 @@
     }
 
 
-    iframe {
+    .video > iframe {
         width: 32rem;
         height: 24rem;
+    }
+
+    .clickable {
+        display: none;
     }
 
   .work {
