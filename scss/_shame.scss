@@ -25,7 +25,6 @@ body {
 
 main {
     background-color: #fdfdfd;
-    margin-bottom: 15rem;
     min-height: 100vh;
     z-index: 1;
 }
@@ -105,6 +104,28 @@ header {
   animation-fill-mode: forwards;
 }
 
+.absolute-page-block {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+
+    & .about {
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & .intro {
+            width: 60rem;
+            margin: 5rem 0;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
 .page-block {
   position: relative;
   width: 100vw;
@@ -127,11 +148,6 @@ header {
     align-items: center;
     overflow: hidden;
     margin-top: 8rem;
-
-    & .intro {
-      display: flex;
-      flex-direction: column;
-    }
   }
 }
 
@@ -202,10 +218,13 @@ header {
 }
 
 .self {
-  width: 35rem;
-  max-width: 35rem;
-  height: auto;
-  background-size: contain;
+  width: 40%;
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  object-fit: cover;
+  position: sticky;
+  top: 0;
 
   &::after {
     content: '';
