@@ -17,6 +17,7 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/screen.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <link rel="icon" href="/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
@@ -49,27 +50,31 @@
     <!-- End page header -->
 
     <main>
-    <div class="page-block">
-        <div class="page-wrapper">
+    <div class="absolute-page-block">
+        <img class="self" srcset="/assets/img/self/self-25w.jpg 350w,
+                                    /assets/img/self/self-50w.jpg 500w,
+                                    /assets/img/self/self-75w.jpg 750w,
+                                    /assets/img/self/self-100w.jpg 1000w"
+                        sizes="(max-width: 350px) 280px,
+                                (max-width: 500px) 500px,
+                                (max-width: 750px) 750px,
+                                1000px" src="/assets/img/self/self-50w.jpg" alt="picture of myself"/>
+        <div class="about">
             <div class="intro">
-              <h2 class="secondary-title">👋 Hello stranger</h2>
-              <p class="intro-p">Laurens a is a 🇧🇪 Belgian born and raised digital 👨‍🎨 designer with 👨‍💻 front-end development skills.<br/><br/>
-              Laurens has a ❤️ heart for webdesign, typography (especially comic-sans) and motion delight. If you feel the same way or need someone who loves these things feel free to drop him a line. <br/><br/>
-              Next to all of that Laurens really loves 🐶 dogs and he hopes to own at least three one day. He also thinks his Instagram is really good but honestly it isn't that 👎🏼 great. <br/><br/>
-              If you want to get to know Laurens or just chat feel free to ✉️ <a href="https://laurensvandevyver.com/page/contact/">drop him a line</a> he also promises he will speak in first person if you do.
-              </p>
+                <h2 class="secondary-title">👋 Hello stranger</h2>
+                <p class="intro-p">Laurens a is a 🇧🇪 Belgian born and raised digital 👨‍🎨 designer with 👨‍💻 front-end development skills.<br/><br/>
+                Laurens has a ❤️ heart for webdesign, typography (especially comic-sans) and motion delight. If you feel the same way or need someone who loves these things feel free to drop him a line. <br/><br/>
+                Next to all of that Laurens really loves 🐶 dogs and he hopes to own at least three one day. He also thinks his Instagram is really good but honestly it isn't that 👎🏼 great. <br/><br/>
+                If you want to get to know Laurens or just chat feel free to ✉️ <a href="https://laurensvandevyver.com/page/contact/">drop him a line</a> he also promises he will speak in first person if you do.
+                </p>
             </div>
-            <div class="gradient-line--photo">
-              <img class="self" src="/assets/img/self.jpg" alt="picture of myself"/>
-            </div>
-        </div>
-        <div class="page-wrapper push2 split">
-            <div class="self-split">
-                <h2 class="secondary-title">Work</h2>
+
+            <div class="intro">
+                <h2 class="secondary-title">Experience</h2>
                 <div class="work-overview">
                     <div class="work-overview--item">
-                        <h4 class="work-overview--title">You?</h4>
-                        <p><a href="https://laurensvandevyver.com/page/contact/">Let's talk</a></p>
+                        <h4 class="work-overview--title">Studio Dott - 2018</h4>
+                        <p>Digital product designer</p>
                     </div>
                     <div class="work-overview--item">
                         <h4 class="work-overview--title">Acrona - 2018</h4>
@@ -81,8 +86,9 @@
                     </div>
                 </div>
             </div>
-            <div class="self-split">
-                <h2 class="secondary-title">Skill</h2>
+
+            <div class="intro">
+                <h2 class="secondary-title">Skills</h2>
                 <ul class="skill-set">
                     <li>Photoshop</li>
                     <li>Illustrator</li>
@@ -106,10 +112,12 @@
         <li class="footer-nav--item"><a href="/">Work</a></li>
         <li class="footer-nav--item"><a href="https://laurensvandevyver.com/page/about/">About</a></li>
         <li class="footer-nav--item"><a href="https://laurensvandevyver.com/page/contact/">Contact</a></li>
-        <li class="footer-nav--item"><a target="_blank" href="https://www.linkedin.com/in/laurensvandevyver/">LinkedIn</a></li>
-        <li class="footer-nav--item"><a target="_blank" href="https://www.behance.net/laurensvdv">Behance</a></li>
-        <li class="footer-nav--item"><a target="_blank" href="https://dribbble.com/laurensvdv">Dribbble</a></li>
-        <li class="footer-nav--item"><a target="_blank" href="https://www.instagram.com/laurens.psd/">Instagram</a></li>
+    </ul>
+    <ul class="footer-nav">
+        <li class="footer-nav--item"><a target="_blank" href="https://www.linkedin.com/in/laurensvandevyver/"><i class="fab fa-linkedin-in"></i></a></li>
+        <li class="footer-nav--item"><a target="_blank" href="https://www.behance.net/laurensvdv"><i class="fab fa-behance"></i></a></li>
+        <li class="footer-nav--item"><a target="_blank" href="https://dribbble.com/laurensvdv"><i class="fab fa-dribbble"></i></a></li>
+        <li class="footer-nav--item"><a target="_blank" href="https://www.instagram.com/laurens.psd/"><i class="fab fa-instagram"></i></a></li>
     </ul>
     <p class="footer-credit">© Laurens Vandevyver 2018</p>
 </footer>

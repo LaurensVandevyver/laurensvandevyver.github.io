@@ -1,19 +1,46 @@
 @media (min-width: 960px) {
 
   .intro {
-    width: 50rem;
-    padding-right: 5rem;
+    width: 60rem;
   }
 
   .page-wrapper {
       width: 80%;
   }
+
+  .about {
+      width: 60vw;
+  }
 }
 
 @media (max-width: 960px) {
 
+    .absolute-page-block {
+        flex-direction: column;
+    }
+
+    .secondary-title {
+        margin: 1rem 0 2rem;
+    }
+
+    .self {
+        width: 100vw;
+        height: 100vh;
+        // background-size: cover;
+        // background-position: top;
+        // object-fit: cover;
+        // position: fixed;
+    }
+
+    .about {
+        width: 100vw;
+        margin-top: -30vh;
+    }
+
     .intro {
-        padding-right: 5rem;
+        background-color: white;
+        width: 90vw;
+        margin-left: 15vw;
     }
 
     .assigment-text {
@@ -110,15 +137,11 @@
     }
 
     main {
-        margin-top: 15%;
+        margin-top: 0rem;
     }
 
     .work-wrapper2 {
         margin-top: 1rem;
-    }
-
-    .secondary-title {
-        margin: 5rem 0 1rem;
     }
 
     .overlay-main--title {
@@ -183,7 +206,6 @@
 
   .intro {
     width: 90vw;
-    padding-right: 0;
   }
 
   .gradient-line--photo {
