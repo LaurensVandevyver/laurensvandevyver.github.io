@@ -39,6 +39,70 @@ header {
   justify-content: flex-end;
 }
 
+.intro-reveal {
+    opacity: 0;
+    animation-name: reveal;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        margin-top: 50vh;
+    }
+
+    to {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+.intro-style {
+    position: fixed;
+    width: 100vw;
+    height: 25vh;
+    left: 0;
+    background-color: black;
+    z-index: 999999999999999;
+    animation-name: intro1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+.intro-anim-1 {
+    top: 0;
+    animation-delay: 1s;
+}
+
+.intro-anim-2 {
+    top: 25vh;
+    animation-delay: 1.1s;
+}
+
+.intro-anim-3 {
+    top: 50vh;
+    animation-delay: 1.2s;
+}
+
+.intro-anim-4 {
+    top: 75vh;
+    animation-delay: 1.3s;
+}
+
+@keyframes intro1 {
+    from {
+      left: 0;
+    }
+
+    to {
+      left: 100vw;
+    }
+}
+
 .intro-p {
     a {
         color: #6e23ef;
@@ -112,18 +176,29 @@ header {
     flex-direction: row;
 
     & .about {
-        width: 60vw;
         display: flex;
         flex-direction: column;
         align-items: center;
+        z-index: 999;
 
         & .intro {
-            width: 60rem;
-            margin: 5rem 0;
+            max-width: 60rem;
+            margin: 3rem 0;
+            padding: 2rem;
             display: flex;
             flex-direction: column;
         }
     }
+}
+
+.self {
+  width: 40%;
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  object-fit: cover;
+  position: sticky;
+  top: 0;
 }
 
 .page-block {
@@ -152,10 +227,12 @@ header {
 }
 
 .work-overview--item {
+    width: 60vw;
     margin-bottom: 1.5rem;
 
     > p {
         font-style: italic;
+        margin-left: 2rem;
 
         & a {
             color: #6e23ef;
@@ -170,6 +247,7 @@ header {
 
 .work-overview--title {
     font-weight: bold;
+    margin-left: 2rem;
 
     &::before {
         content: '';
@@ -215,27 +293,6 @@ header {
   font-size: 2.4rem;
   font-weight: 600;
   margin: 1rem 0 3rem;
-}
-
-.self {
-  width: 40%;
-  height: 100vh;
-  background-size: cover;
-  background-position: top;
-  object-fit: cover;
-  position: sticky;
-  top: 0;
-
-  &::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    max-width: 35rem;
-    height: .4rem;
-    z-index: -1;
-    margin-top: -.6rem;
-    background: linear-gradient(to right, #ee0979, #ff6a00);
-  }
 }
 
 .gradient-line--photo {

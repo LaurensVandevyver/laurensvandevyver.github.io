@@ -51,7 +51,14 @@
 
     <main>
     <div class="absolute-page-block">
-        <img class="self" src="/assets/img/self.jpg" alt="picture of myself"/>
+        <img class="self" srcset="/assets/img/self/self-25w.jpg 350w,
+                                    /assets/img/self/self-50w.jpg 500w,
+                                    /assets/img/self/self-75w.jpg 750w,
+                                    /assets/img/self/self-100w.jpg 1000w"
+                        sizes="(max-width: 350px) 280px,
+                                (max-width: 500px) 500px,
+                                (max-width: 750px) 750px,
+                                1000px" src="/assets/img/self/self-50w.jpg" alt="picture of myself"/>
         <div class="about">
             <div class="intro">
                 <h2 class="secondary-title">👋 Hello stranger</h2>
@@ -97,57 +104,6 @@
         </div>
     </div>
 </main>
-
-<!-- <main>
-    <div class="page-block">
-        <div class="page-wrapper">
-            <div class="intro">
-              <h2 class="secondary-title">👋 Hello stranger</h2>
-              <p class="intro-p">Laurens a is a 🇧🇪 Belgian born and raised digital 👨‍🎨 designer with 👨‍💻 front-end development skills.<br/><br/>
-              Laurens has a ❤️ heart for webdesign, typography (especially comic-sans) and motion delight. If you feel the same way or need someone who loves these things feel free to drop him a line. <br/><br/>
-              Next to all of that Laurens really loves 🐶 dogs and he hopes to own at least three one day. He also thinks his Instagram is really good but honestly it isn't that 👎🏼 great. <br/><br/>
-              If you want to get to know Laurens or just chat feel free to ✉️ <a href="https://laurensvandevyver.com/page/contact/">drop him a line</a> he also promises he will speak in first person if you do.
-              </p>
-            </div>
-            <div class="gradient-line--photo">
-              <img class="self" src="/assets/img/self.jpg" alt="picture of myself"/>
-            </div>
-        </div>
-        <div class="page-wrapper push2 split">
-            <div class="self-split">
-                <h2 class="secondary-title">Work</h2>
-                <div class="work-overview">
-                    <div class="work-overview--item">
-                        <h4 class="work-overview--title">You?</h4>
-                        <p><a href="https://laurensvandevyver.com/page/contact/">Let's talk</a></p>
-                    </div>
-                    <div class="work-overview--item">
-                        <h4 class="work-overview--title">Acrona - 2018</h4>
-                        <p>UX / UI design summerjob</p>
-                    </div>
-                    <div class="work-overview--item">
-                        <h4 class="work-overview--title">Wijs - 2018</h4>
-                        <p>Design & front-end development internship</p>
-                    </div>
-                </div>
-            </div>
-            <div class="self-split">
-                <h2 class="secondary-title">Skill</h2>
-                <ul class="skill-set">
-                    <li>Photoshop</li>
-                    <li>Illustrator</li>
-                    <li>After effects</li>
-                    <li>Premiere pro</li>
-                    <li>Sketch</li>
-                    <li>Principle</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript ES6</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</main> -->
 
 
     <!-- Page footer -->
