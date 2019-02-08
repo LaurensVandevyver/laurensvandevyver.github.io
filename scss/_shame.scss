@@ -539,3 +539,200 @@ header {
       background-image: url(../assets/img/corner.png);
       background-size: cover;
   }
+
+  .blog {
+      display: flex;
+      width: 100vw;
+  }
+
+  .blog-sidebar {
+      width: 50vw;
+      max-width: 50rem;
+      height: 100vh;
+      background-image: url(../assets/img/self/self-75w.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+  .blog-content {
+      width: 50vw;
+      padding: 10rem 20rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .blog-article {
+      background-color: white;
+      width: 40rem;
+      min-height: 10rem;
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      box-shadow: .1rem .1rem .5rem #ededed;
+  }
+
+  .blog-article-wrapper {
+      margin: 2rem;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .blog-header {
+      width: 100%;
+      height: 30rem;
+      border-radius: 1rem 1rem 0 0;
+  }
+
+  .blog-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: .1rem;
+  }
+
+  .blog-date {
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .1rem;
+      margin-top: 1rem;
+      color: gray;
+  }
+
+  .blog-description {
+      font-size: 300;
+      line-height: 150%;
+      letter-spacing: .05rem;
+      margin: 1rem 0;
+  }
+
+  .newyork-cover {
+      background-image: url(../assets/img/blog/newyork/cover.jpg);
+      background-size: cover;
+      background-position: top;
+  }
+
+  .blog-cta {
+      margin-top: 1rem;
+      align-self: flex-end;
+  }
+
+  .blog-cta a {
+      color: #333;
+      letter-spacing: .1rem;
+      text-decoration: none;
+  }
+
+  .blogpost {
+      width: 90rem;
+      line-height: 175%;
+      border: 1px solid green;
+  }
+
+  .blogpost-header {
+      width: 100%;
+      height: 40rem;
+      margin-bottom: 2rem;
+  }
+
+  .blogpost-title {
+      font-weight: bold;
+      font-size: 2.4rem;
+      letter-spacing: .1rem;
+      margin: 2rem 0;
+  }
+
+  .blogpost-intro {
+      margin: 2rem 0;
+      font-weight: bold;
+  }
+
+  .blogpost-photos-2 {
+      margin: 2rem 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+
+  .blogpost-photos-4 {
+      display: flex;
+      flex-direction: column;
+      height: 40rem;
+      width: 50%;
+      justify-content: space-between;
+
+      > &&::nth-child(2) {
+          border: 1px solid red;
+      }
+  }
+
+  .instagrampost {
+      width: 48%;
+      height: 48%;
+  }
+
+  .collage-square {
+      width: 39rem;
+      height: 39rem;
+      margin: 1rem 0;
+  }
+
+  .tall {
+      width: 48%;
+      height: 100%;
+  }
+
+  .margin {
+      margin-top: 4%;
+  }
+
+  .blogpost-split {
+      margin: 2rem 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+
+  .split {
+      width: 48%;
+  }
+
+  .blogpost-block {
+      margin-top: 10rem;
+  }
+  .blogpost-p {
+
+  }
+
+  strong {
+      font-weight: bold;
+  }
+
+  .blogpost-subtitle {
+      font-weight: bold;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+  }
+
+  .blogpost-photos-3 {
+      display: flex;
+      margin: 2rem 0;
+      justify-content: space-between;
+  }
+
+  .collage-tall {
+      width: 50%;
+      height: 80rem;
+      margin: 1rem 0;
+      background-size: cover;
+  }
+  .vertical {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 2rem;
+  }
+
+  .hashtag {
+      color: blue;
+  }
