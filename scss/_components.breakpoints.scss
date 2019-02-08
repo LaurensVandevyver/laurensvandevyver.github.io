@@ -121,6 +121,13 @@
 
 }
 
+@media (min-width: 800px) {
+    .blogpost {
+        width: 96vw;
+        border: 1px solid red;
+    }
+}
+
 @media (max-width: 750px) {
 
     .contact {
