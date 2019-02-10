@@ -512,6 +512,15 @@
     }
 }
 
+.upline-color2 {
+    background-color: transparent;
+    transition: .5s;
+
+    &:hover {
+        background-color: rgb(1, 87, 255);
+    }
+}
+
 .msk-color {
     background-color: transparent;
     transition: .5s;
