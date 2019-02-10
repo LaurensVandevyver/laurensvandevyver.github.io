@@ -134,6 +134,14 @@
   background: rgba(255, 166, 36, .5);
 }
 
+.upline-color {
+  background: rgba(1, 87, 255, .5);
+}
+
+.upline-color-lighter {
+  background: rgba(1, 87, 255, .1);
+}
+
 .test {
   width: 100%;
   height: 34rem;
@@ -215,6 +223,18 @@
       background-color: #fafafa;
     }
 
+    & .colour-swatch--15 {
+      background-color: #0157ff;
+    }
+
+    & .colour-swatch--16 {
+      background-color: #000e2b;
+    }
+
+    & .colour-swatch--17 {
+      background-color: #fdfdfd;
+    }
+
     & .colour-swatch--size {
         width: 10rem;
         height: 10rem;
@@ -241,6 +261,13 @@
     & .summer-wireframes {
       background-image: url(../assets/img/summer/wireframes.png);
       background-size: cover;
+      background-position: center;
+    }
+
+    & .upline-logo {
+      background-image: url(../assets/svg/upline/logo.svg);
+      // background-size: cover;
+      background-repeat: no-repeat;
       background-position: center;
     }
 
@@ -300,6 +327,10 @@
   background-image: url(../assets/svg/bachelor/open.svg);
 }
 
+.montserrat {
+  background-image: url(../assets/svg/upline/montserrat.svg);
+}
+
 .sfui {
   background-image: url(../assets/svg/daikin/sf.svg);
 }
@@ -319,6 +350,11 @@
 
 .circular {
   background-image: url(../assets/svg/summer/circular.svg);
+  margin-top: 5rem;
+}
+
+.worksans {
+  background-image: url(../assets/svg/upline/work.svg);
   margin-top: 5rem;
 }
 

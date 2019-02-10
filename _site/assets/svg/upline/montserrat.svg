@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="380px" height="72px" viewBox="0 0 380 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>The quick brown fox</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Montserrat-Bold, Montserrat" font-size="30" font-weight="bold" letter-spacing="0.119999997" line-spacing="41">
+        <g id="Desktop-Copy" transform="translate(-605.000000, -160.000000)" fill="#262626">
+            <text id="The-quick-brown-fox">
+                <tspan x="608" y="182">The quick brown fox</tspan>
+                <tspan x="608" y="223">jumps over the lazy dog</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
