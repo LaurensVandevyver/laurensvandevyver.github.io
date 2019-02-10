@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="11px" viewBox="0 0 71 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Artboard" transform="translate(-291.000000, -197.000000)" stroke="#000000">
+            <g id="arrow-right" transform="translate(292.000000, 197.000000)">
+                <path d="M0,5.5 L68.9705882,5.5" id="Path"></path>
+                <polyline id="Path" points="64.3382353 0.5 69.4852941 5.5 64.3382353 10.5"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
