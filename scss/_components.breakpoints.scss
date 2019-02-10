@@ -121,10 +121,26 @@
 
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
     .blogpost {
         width: 96vw;
-        border: 1px solid red;
+    }
+
+    .blogpost-photos-2 {
+        flex-direction: column;
+    }
+
+    .tall {
+        width: 100%;
+        margin: 2rem 0;
+    }
+
+    .blogpost-split {
+        flex-direction: column;
+    }
+
+    .split {
+        width: 100%;
     }
 }
 
