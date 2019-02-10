@@ -468,6 +468,18 @@ header {
     }
 }
 
+.upline-line {
+
+    &::before {
+        content: '';
+        position: absolute;
+        height: 4rem;
+        width: .4rem;
+        background-color: #0157FF;
+        margin-left: -1rem;
+    }
+}
+
 .video {
     margin-top: 10rem;
 
